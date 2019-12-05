@@ -1,0 +1,97 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" ignored="0" total="4" passed="4">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Suite" duration-ms="58290" started-at="2019-12-05T10:49:03Z" finished-at="2019-12-05T10:50:01Z">
+    <groups>
+    </groups>
+    <test name="Validate page title" duration-ms="19366" started-at="2019-12-05T10:49:03Z" finished-at="2019-12-05T10:49:22Z">
+      <class name="mageBlog.validateTitle">
+        <test-method status="PASS" signature="initialize()[pri:0, instance:mageBlog.validateTitle@5fa07e12]" name="initialize" is-config="true" duration-ms="19171" started-at="2019-12-05T10:49:03Z" finished-at="2019-12-05T10:49:22Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- initialize -->
+        <test-method status="PASS" signature="validateAppTitle()[pri:0, instance:mageBlog.validateTitle@5fa07e12]" name="validateAppTitle" duration-ms="54" started-at="2019-12-05T10:49:22Z" finished-at="2019-12-05T10:49:22Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- validateAppTitle -->
+        <test-method status="PASS" signature="teardown()[pri:0, instance:mageBlog.validateTitle@5fa07e12]" name="teardown" is-config="true" duration-ms="113" started-at="2019-12-05T10:49:22Z" finished-at="2019-12-05T10:49:22Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- teardown -->
+      </class> <!-- mageBlog.validateTitle -->
+    </test> <!-- Validate page title -->
+    <test name="Validate home page" duration-ms="23996" started-at="2019-12-05T10:49:22Z" finished-at="2019-12-05T10:49:46Z">
+      <class name="mageBlog.HomePage">
+        <test-method status="PASS" signature="initialize()[pri:0, instance:mageBlog.HomePage@378542de]" name="initialize" is-config="true" duration-ms="5380" started-at="2019-12-05T10:49:22Z" finished-at="2019-12-05T10:49:27Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- initialize -->
+        <test-method status="PASS" signature="basePageNavigation(java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:mageBlog.HomePage@378542de]" name="basePageNavigation" duration-ms="13841" started-at="2019-12-05T10:49:27Z" data-provider="getData" finished-at="2019-12-05T10:49:41Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[nonrestricteduser@qw.com]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[123456]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[Restrcited User]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- basePageNavigation -->
+        <test-method status="PASS" signature="basePageNavigation(java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:mageBlog.HomePage@378542de]" name="basePageNavigation" duration-ms="4597" started-at="2019-12-05T10:49:41Z" data-provider="getData" finished-at="2019-12-05T10:49:46Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[testing@adolmedia.com]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[Testing@#123]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[Non restricted user]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- basePageNavigation -->
+        <test-method status="PASS" signature="teardown()[pri:0, instance:mageBlog.HomePage@378542de]" name="teardown" is-config="true" duration-ms="166" started-at="2019-12-05T10:49:46Z" finished-at="2019-12-05T10:49:46Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- teardown -->
+      </class> <!-- mageBlog.HomePage -->
+    </test> <!-- Validate home page -->
+    <test name="App Testing" duration-ms="1" started-at="2019-12-05T10:49:46Z" finished-at="2019-12-05T10:49:46Z">
+    </test> <!-- App Testing -->
+    <test name="Validate Navigation bar" duration-ms="14753" started-at="2019-12-05T10:49:46Z" finished-at="2019-12-05T10:50:01Z">
+      <class name="mageBlog.validateNavigationBar">
+        <test-method status="PASS" signature="initialize()[pri:0, instance:mageBlog.validateNavigationBar@222a59e6]" name="initialize" is-config="true" duration-ms="14450" started-at="2019-12-05T10:49:46Z" finished-at="2019-12-05T10:50:01Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- initialize -->
+        <test-method status="PASS" signature="validateAppNavBar()[pri:0, instance:mageBlog.validateNavigationBar@222a59e6]" name="validateAppNavBar" duration-ms="150" started-at="2019-12-05T10:50:01Z" finished-at="2019-12-05T10:50:01Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- validateAppNavBar -->
+        <test-method status="PASS" signature="teardown()[pri:0, instance:mageBlog.validateNavigationBar@222a59e6]" name="teardown" is-config="true" duration-ms="147" started-at="2019-12-05T10:50:01Z" finished-at="2019-12-05T10:50:01Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- teardown -->
+      </class> <!-- mageBlog.validateNavigationBar -->
+    </test> <!-- Validate Navigation bar -->
+  </suite> <!-- Suite -->
+</testng-results>
